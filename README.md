@@ -90,6 +90,3 @@ python evaluate.py
 -----
 
 *Created by Dhyan*
-
-```
-```
