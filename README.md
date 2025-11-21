@@ -1,6 +1,3 @@
------
-
-````markdown
 # Deep Hedging: Derivative Hedging using Distributional Reinforcement Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -56,7 +53,6 @@ The agent learned to smooth out the "jagged" trading patterns of the theoretical
 
 ```bash
 pip install gymnasium stable-baselines3 sb3-contrib torch numpy pandas matplotlib scipy
-````
 
 ### Training the Agent
 
