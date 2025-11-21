@@ -33,6 +33,7 @@ The agent was trained for 100,000 steps and benchmarked against a theoretical Bl
 The agent achieved a highly stable P&L distribution, effectively neutralizing market risk while paying a minimal "insurance premium" (transaction costs).
 
 ![P&L Histogram](assets/distribution_results.png)
+
 *Above: The P&L distribution is centered near zero with low variance, indicating successful hedging.*
 
 | Metric | Value | Interpretation |
@@ -53,7 +54,7 @@ The agent learned to smooth out the "jagged" trading patterns of the theoretical
 
 ```bash
 pip install gymnasium stable-baselines3 sb3-contrib torch numpy pandas matplotlib scipy
-
+```
 ### Training the Agent
 
 To train the TQC agent from scratch on the Heston environment:
